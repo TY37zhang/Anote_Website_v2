@@ -222,11 +222,11 @@ export default function Home() {
                 {/* This Week in AI & Community Feed */}
                 <section className="py-16">
                     <div className="container">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                            <div>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                            <div className="flex flex-col h-full min-h-[420px]">
                                 <ThisWeekInAI />
                             </div>
-                            <div>
+                            <div className="flex flex-col h-full min-h-[420px]">
                                 <CommunityFeed />
                             </div>
                         </div>

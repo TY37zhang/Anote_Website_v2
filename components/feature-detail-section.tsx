@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 interface FeatureDetailProps {
+    id: string;
     title: string;
     description: string;
     imageSrc: string;
@@ -15,6 +16,7 @@ interface FeatureDetailProps {
 }
 
 export default function FeatureDetailSection({
+    id,
     title,
     description,
     imageSrc,
